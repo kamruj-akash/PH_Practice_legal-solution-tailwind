@@ -406,7 +406,7 @@
 
     <!-- footer section -->
     <footer class="bg-[#111111] p-[120px] flex gap-20">
-      <div class="w-[260px]">
+      <div class="w-1/4">
         <img class="" src="img/logo.png" alt="business" />
         <p class="text-[#707070] font-normal text-lg mt-6 mb-14">
           There are many variations of passages of Lorem Ipsum available, but
@@ -414,7 +414,7 @@
           humour.
         </p>
       </div>
-      <div>
+      <div class="w-1/4">
         <h4 class="text-white font-extrabold text-2xl mb-12">Usefull Link</h4>
         <ul>
           <li class="text-[#CFCFCF] font-normal text-base">Homes</li>
@@ -424,7 +424,7 @@
           <li class="text-[#CFCFCF] font-normal text-base">Contact Us</li>
         </ul>
       </div>
-      <div>
+      <div class="w-1/4">
         <h4 class="text-white font-extrabold text-2xl mb-12">Contact Now</h4>
         <ul>
           <li class="text-[#CFCFCF] font-normal text-base">
@@ -440,23 +440,25 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div class="w-1/4">
         <h4 class="text-white font-extrabold text-2xl mb-12">Subscribe</h4>
         <p class="text-[#707070] font-normal text-base mt-6 mb-14">
           Subscribe for our latest & Articles. We Won’t Give You Spam Mails
         </p>
-        <input
-          class="bg-white rounded-lg p-5 w-auto"
-          placeholder="Search your services"
-          type="search"
-          name=""
-          id=""
-        />
-        <button
-          class="rounded-lg text-white bg-[#B68C5A] text-lg hover:bg-[#0E121B] cursor-pointer transition"
-        >
-          Search
-        </button>
+        <div class="relative">
+          <input
+            class="bg-white rounded-lg p-5 w-full"
+            placeholder="Search your services"
+            type="search"
+            name=""
+            id=""
+          />
+          <button
+            class="absolute top-0 right-0 p-5 rounded-lg text-white bg-[#B68C5A] text-lg hover:bg-[#0E121B] cursor-pointer transition"
+          >
+            Search
+          </button>
+        </div>
       </div>
     </footer>
   </body>
